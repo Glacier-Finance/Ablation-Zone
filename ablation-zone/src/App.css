@@ -47,3 +47,25 @@
   color: #ed003f !important;
   transition: 0.5s;
 }
+#home {
+  /* background-color: rgba(0, 0, 0, 0.01); */
+  background-color: transparent;
+  position: relative;
+  width: 100%;
+  z-index: 0;
+  font-family: "Roboto", sans-serif;
+  overflow-x: hidden;
+  color: white;
+
+}
+.home-container {
+  margin-top: 3rem;
+  text-align: left;
+}
+.home-welcome {
+  font-size: 140%;
+}
+.home-intro {
+  font-size: 90%;
+  margin-left: 1rem;
+}
