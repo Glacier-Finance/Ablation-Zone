@@ -54,8 +54,9 @@ export default function NavbarDefault() {
               exact
               className="nav-link"
             >
-              About
+            About
             </Link>
+
           </Nav>
       </Navbar>
     </div>
