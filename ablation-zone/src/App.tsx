@@ -1,28 +1,19 @@
-import './App.css';
-import { BrowserRouter as Router, Route, Switch } from "react-router-dom";
-import Navbar from './components/Navbar';
-import Home from './components/Home';
-import About from './components/About';
-import Team from './components/Team';
-
-function MainPage(props: any) {
-  return (
-    <div className="App">
-      <Home />
-      <About />
-      <Team />
-    </div>
-  );
-}
+import NavBarContainer from "./containers/NavBarContainer"
+import MainContainer from "./containers/MainContainer"
+import FooterContainer from "./containers/FooterContainer"
+import { ThemeProvider } from 'styled-components';
+import React from 'react';
+import { theme } from './theme';
 
 function App() {
   return (
-    <Router>
-    <Navbar />
-    <Switch>
-      <Route exact path="/" component={MainPage} />
-    </Switch>
-  </Router>
+    <ThemeProvider theme={theme}>
+      <>
+        <NavBarContainer></NavBarContainer>
+        <MainContainer></MainContainer>
+        <FooterContainer></FooterContainer>
+      </>
+    </ThemeProvider>
   );
 }
 
