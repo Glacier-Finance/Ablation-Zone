@@ -5,3 +5,6 @@ declare module 'react-bootstrap';
 declare module 'reactstrap';
 declare module 'react-router-dom';
 declare module 'react-reveal/Fade';
+declare module 'styled-components';
+declare module 'rebass';
+declare module 'styled-system'
