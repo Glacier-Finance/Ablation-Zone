@@ -1,5 +1,5 @@
 import React from 'react'
-import { Image, Text } from 'rebass';
+import { Image } from 'rebass';
 import FullScreenBox from "../components/FullScreenBox";
 import CenteredBox from "../components/CenteredBox";
 import GradientBox from "../components/GradientBox";

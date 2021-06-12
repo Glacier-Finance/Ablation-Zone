@@ -1,10 +1,9 @@
 import React from 'react'
-import { Flex, Link, Box, Text, Image } from 'rebass';
+import { Flex, Box, Text, Image } from 'rebass';
 import NavLinkDropdownItems from '../components/NavLinkDropDownItems';
 import NavLinkDropDown from "../components/NavLinkDropdown";
 import NavLink from "../components/NavLink";
 import StyledButton from "../components/Button";
-import styled from "styled-components";
 
 function NavBarContainer() {
     return (
@@ -32,7 +31,10 @@ function NavBarContainer() {
           Docs
         </NavLink>
         <NavLinkDropDown>
-          <span>Socials</span>
+          <Text
+            alignItems='center'
+            right='0'
+          >Socials</Text>
           <NavLinkDropdownItems>
 
           </NavLinkDropdownItems>
