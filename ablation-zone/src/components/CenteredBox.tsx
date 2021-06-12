@@ -20,4 +20,4 @@ function CenteredBox(props: any) {
   );
 }
 
-export default Centered;
+export default CenteredBox;

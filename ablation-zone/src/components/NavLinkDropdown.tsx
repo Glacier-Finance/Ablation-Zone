@@ -2,15 +2,15 @@ import React from 'react';
 import styled from "styled-components";
 
 const NavLink = styled.div`
-  display: inline-block;
+  display: block;
   padding: calc((75px - 1em) / 2);
   position: relative;
-
+  align-items: center;
   &:hover {
-    color: pink;
-   & > article {
+   & > div {
+     color: pink;
+     right: 0;
       max-height: 140px;
-      transition: max-height 0.3s ease-in;
     } 
   }
 `;
