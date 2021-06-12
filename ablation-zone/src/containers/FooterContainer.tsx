@@ -1,6 +1,7 @@
 import React from 'react'
-import { Box, Flex, Image, Text } from 'rebass';
-
+import { Box, Flex } from 'rebass';
+import FooterBrand from '../components/FooterBrand';
+import FooterSocials from '../components/FooterSocials';
 function FooterContainer() {
     return (
         <Box
@@ -10,37 +11,11 @@ function FooterContainer() {
             minHeight={'15vh'}
             bg='#5E81B4'
             >
-            <Flex>
-            <Box
-                p={3}
-                width={1/2}
-                color='white'
-                    bg='primary'>
-                    <Box
-                p={3}
-                width={1/2}
-                color='white'
-                        bg='primary'>
-                        
-                </Box>
-                <Image
-                    src='glacier-finance-brand.png'
-                    variant='avatar'
-                    positon='relative'
-                    sx={{
-                        width: 48,
-                        height: 48,
-                    }}
-                />
-                <Text p={2} fontWeight='bold'>Glacier Finance</Text>
-            </Box>
-            <Box
-                p={3}
-                width={1/2}
-                color='white'
-                bg='secondary'>
-                Box
-            </Box>
+            <Flex
+                flexDirection='column'
+            >
+                <FooterBrand />
+                <FooterSocials />
             </Flex>
         </Box>
   );
