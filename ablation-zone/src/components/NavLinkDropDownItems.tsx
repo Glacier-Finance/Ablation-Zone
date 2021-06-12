@@ -2,7 +2,7 @@ import React from 'react';
 import styled from "styled-components";
 
 const DropdownContainer = styled.div`
-  background-color: #34515e  ;
+  background-color: #34515e;
   box-shadow: 0 1px 3px #607d8b;
   top: 75px;
   max-height: 0;
@@ -18,7 +18,10 @@ const DropdownContainer = styled.div`
     li {
       padding: 5px;
       &:hover {
-        background-color: #607d8b ;
+        background-color: #607d8b;
+        & > a {
+          color: inherit;
+         } 
        }
     }
   }
@@ -32,11 +35,8 @@ const Text = styled.a`
   margin-bottom: 16px;
   text-align: center;
   width: 100%;
-  text-decoration: none;
   &:hover {
-    color: inherit;
     text-decoration: none;
-    background-color: #607d8b ;
    }
 `;
 
