@@ -10,7 +10,7 @@ const NavLink = styled.div`
    & > div {
      color: pink;
      right: 0;
-      max-height: 140px;
+      max-height: 170px;
     } 
   }
 `;

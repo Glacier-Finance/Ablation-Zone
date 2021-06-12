@@ -48,6 +48,7 @@ function NavLinkDropdownItems(props: any) {
               <li><Text href="https://www.google.com">Discord</Text></li>
               <li><Text href="https://www.google.com">Telegram</Text></li>
               <li><Text href="https://www.google.com">Medium</Text></li>
+              <li><Text href="https://www.google.com">Github</Text></li>
             </ul>
       </DropdownContainer>
   );
